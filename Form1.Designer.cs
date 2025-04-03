@@ -56,6 +56,7 @@
             this.btnQuartz.TabIndex = 1;
             this.btnQuartz.Text = "Quartz";
             this.btnQuartz.UseVisualStyleBackColor = true;
+            this.btnQuartz.Click += new System.EventHandler(this.btnQuartz_Click);
             // 
             // btnBismuth
             // 
@@ -65,6 +66,7 @@
             this.btnBismuth.TabIndex = 2;
             this.btnBismuth.Text = "Bismuth";
             this.btnBismuth.UseVisualStyleBackColor = true;
+            this.btnBismuth.Click += new System.EventHandler(this.btnBismuth_Click);
             // 
             // btnBismuthBear
             // 
