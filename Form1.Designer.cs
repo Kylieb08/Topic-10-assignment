@@ -43,6 +43,7 @@
             // btnEmerald
             // 
             this.btnEmerald.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnEmerald.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmerald.Location = new System.Drawing.Point(12, 153);
             this.btnEmerald.Name = "btnEmerald";
             this.btnEmerald.Size = new System.Drawing.Size(118, 56);
@@ -54,6 +55,7 @@
             // btnQuartz
             // 
             this.btnQuartz.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnQuartz.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuartz.Location = new System.Drawing.Point(12, 215);
             this.btnQuartz.Name = "btnQuartz";
             this.btnQuartz.Size = new System.Drawing.Size(118, 56);
@@ -65,6 +67,7 @@
             // btnBismuth
             // 
             this.btnBismuth.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnBismuth.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBismuth.Location = new System.Drawing.Point(12, 277);
             this.btnBismuth.Name = "btnBismuth";
             this.btnBismuth.Size = new System.Drawing.Size(118, 56);
@@ -76,6 +79,7 @@
             // btnBismuthBear
             // 
             this.btnBismuthBear.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnBismuthBear.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBismuthBear.Location = new System.Drawing.Point(12, 339);
             this.btnBismuthBear.Name = "btnBismuthBear";
             this.btnBismuthBear.Size = new System.Drawing.Size(118, 56);
@@ -98,20 +102,20 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Times New Roman", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Wide Latin", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.Location = new System.Drawing.Point(12, 31);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(405, 42);
+            this.lblTitle.Size = new System.Drawing.Size(651, 36);
             this.lblTitle.TabIndex = 5;
             this.lblTitle.Text = "Select a Mineral to View It";
             // 
             // lblMineral
             // 
             this.lblMineral.AutoSize = true;
-            this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMineral.Location = new System.Drawing.Point(14, 398);
             this.lblMineral.Name = "lblMineral";
-            this.lblMineral.Size = new System.Drawing.Size(755, 27);
+            this.lblMineral.Size = new System.Drawing.Size(809, 26);
             this.lblMineral.TabIndex = 6;
             this.lblMineral.Text = "Emeralds are a very delicate gem. They are twenty times rarer than diamonds";
             this.lblMineral.Visible = false;
@@ -119,9 +123,10 @@
             // lblBear
             // 
             this.lblBear.AutoSize = true;
+            this.lblBear.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBear.Location = new System.Drawing.Point(136, 361);
             this.lblBear.Name = "lblBear";
-            this.lblBear.Size = new System.Drawing.Size(142, 13);
+            this.lblBear.Size = new System.Drawing.Size(161, 14);
             this.lblBear.TabIndex = 7;
             this.lblBear.Text = "Bear? How is that a mineral?";
             this.lblBear.Visible = false;
@@ -129,6 +134,7 @@
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnClear.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(12, 91);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(118, 56);
