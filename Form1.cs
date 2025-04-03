@@ -55,6 +55,10 @@ namespace Topic_10_assignment
             lblMineral.Text = "It's just a bear made of bismuth. A bismuth bear. He's a bit squished";
         }
 
-        
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            imgMineral.Visible = false;
+            lblMineral.Visible = false;
+        }
     }
 }

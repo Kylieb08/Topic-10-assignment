@@ -36,47 +36,52 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblMineral = new System.Windows.Forms.Label();
             this.lblBear = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgMineral)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEmerald
             // 
-            this.btnEmerald.Location = new System.Drawing.Point(12, 123);
+            this.btnEmerald.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnEmerald.Location = new System.Drawing.Point(12, 153);
             this.btnEmerald.Name = "btnEmerald";
             this.btnEmerald.Size = new System.Drawing.Size(118, 56);
             this.btnEmerald.TabIndex = 0;
             this.btnEmerald.Text = "Emerald";
-            this.btnEmerald.UseVisualStyleBackColor = true;
+            this.btnEmerald.UseVisualStyleBackColor = false;
             this.btnEmerald.Click += new System.EventHandler(this.btnEmerald_Click);
             // 
             // btnQuartz
             // 
-            this.btnQuartz.Location = new System.Drawing.Point(12, 185);
+            this.btnQuartz.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnQuartz.Location = new System.Drawing.Point(12, 215);
             this.btnQuartz.Name = "btnQuartz";
             this.btnQuartz.Size = new System.Drawing.Size(118, 56);
             this.btnQuartz.TabIndex = 1;
             this.btnQuartz.Text = "Quartz";
-            this.btnQuartz.UseVisualStyleBackColor = true;
+            this.btnQuartz.UseVisualStyleBackColor = false;
             this.btnQuartz.Click += new System.EventHandler(this.btnQuartz_Click);
             // 
             // btnBismuth
             // 
-            this.btnBismuth.Location = new System.Drawing.Point(12, 247);
+            this.btnBismuth.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnBismuth.Location = new System.Drawing.Point(12, 277);
             this.btnBismuth.Name = "btnBismuth";
             this.btnBismuth.Size = new System.Drawing.Size(118, 56);
             this.btnBismuth.TabIndex = 2;
             this.btnBismuth.Text = "Bismuth";
-            this.btnBismuth.UseVisualStyleBackColor = true;
+            this.btnBismuth.UseVisualStyleBackColor = false;
             this.btnBismuth.Click += new System.EventHandler(this.btnBismuth_Click);
             // 
             // btnBismuthBear
             // 
-            this.btnBismuthBear.Location = new System.Drawing.Point(12, 309);
+            this.btnBismuthBear.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnBismuthBear.Location = new System.Drawing.Point(12, 339);
             this.btnBismuthBear.Name = "btnBismuthBear";
             this.btnBismuthBear.Size = new System.Drawing.Size(118, 56);
             this.btnBismuthBear.TabIndex = 3;
             this.btnBismuthBear.Text = "Bear?";
-            this.btnBismuthBear.UseVisualStyleBackColor = true;
+            this.btnBismuthBear.UseVisualStyleBackColor = false;
             this.btnBismuthBear.Click += new System.EventHandler(this.btnBismuthBear_Click);
             this.btnBismuthBear.MouseLeave += new System.EventHandler(this.btnBismuthBear_MouseLeave);
             this.btnBismuthBear.MouseHover += new System.EventHandler(this.btnBismuthBear_MouseHover);
@@ -104,7 +109,7 @@
             // 
             this.lblMineral.AutoSize = true;
             this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMineral.Location = new System.Drawing.Point(16, 382);
+            this.lblMineral.Location = new System.Drawing.Point(14, 398);
             this.lblMineral.Name = "lblMineral";
             this.lblMineral.Size = new System.Drawing.Size(755, 27);
             this.lblMineral.TabIndex = 6;
@@ -114,18 +119,31 @@
             // lblBear
             // 
             this.lblBear.AutoSize = true;
-            this.lblBear.Location = new System.Drawing.Point(136, 309);
+            this.lblBear.Location = new System.Drawing.Point(136, 361);
             this.lblBear.Name = "lblBear";
             this.lblBear.Size = new System.Drawing.Size(142, 13);
             this.lblBear.TabIndex = 7;
             this.lblBear.Text = "Bear? How is that a mineral?";
             this.lblBear.Visible = false;
             // 
+            // btnClear
+            // 
+            this.btnClear.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnClear.Location = new System.Drawing.Point(12, 91);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(118, 56);
+            this.btnClear.TabIndex = 8;
+            this.btnClear.Text = "Clear Image";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
             // FormAddingResourcesAssignment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumPurple;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblBear);
             this.Controls.Add(this.lblMineral);
             this.Controls.Add(this.lblTitle);
@@ -152,6 +170,7 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblMineral;
         private System.Windows.Forms.Label lblBear;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
