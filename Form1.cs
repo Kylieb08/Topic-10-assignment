@@ -16,5 +16,11 @@ namespace Topic_10_assignment
         {
             InitializeComponent();
         }
+
+        private void btnEmerald_Click(object sender, EventArgs e)
+        {
+            lblMineral.Visible = true;
+            lblMineral.Text = "Emeralds are a very delicate gem. They are twenty times rarer than diamonds";
+        }
     }
 }

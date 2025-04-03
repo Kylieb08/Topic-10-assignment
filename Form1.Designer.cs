@@ -34,6 +34,7 @@
             this.btnBismuthBear = new System.Windows.Forms.Button();
             this.imgMineral = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.lblMineral = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgMineral)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             this.btnEmerald.TabIndex = 0;
             this.btnEmerald.Text = "Emerald";
             this.btnEmerald.UseVisualStyleBackColor = true;
+            this.btnEmerald.Click += new System.EventHandler(this.btnEmerald_Click);
             // 
             // btnQuartz
             // 
@@ -75,9 +77,9 @@
             // 
             // imgMineral
             // 
-            this.imgMineral.Location = new System.Drawing.Point(325, 151);
+            this.imgMineral.Location = new System.Drawing.Point(293, 123);
             this.imgMineral.Name = "imgMineral";
-            this.imgMineral.Size = new System.Drawing.Size(100, 50);
+            this.imgMineral.Size = new System.Drawing.Size(300, 242);
             this.imgMineral.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgMineral.TabIndex = 4;
             this.imgMineral.TabStop = false;
@@ -92,11 +94,23 @@
             this.lblTitle.TabIndex = 5;
             this.lblTitle.Text = "Select a Mineral to View It";
             // 
+            // lblMineral
+            // 
+            this.lblMineral.AutoSize = true;
+            this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMineral.Location = new System.Drawing.Point(16, 382);
+            this.lblMineral.Name = "lblMineral";
+            this.lblMineral.Size = new System.Drawing.Size(755, 27);
+            this.lblMineral.TabIndex = 6;
+            this.lblMineral.Text = "Emeralds are a very delicate gem. They are twenty times rarer than diamonds";
+            this.lblMineral.Visible = false;
+            // 
             // FormAddingResourcesAssignment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblMineral);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.imgMineral);
             this.Controls.Add(this.btnBismuthBear);
@@ -119,6 +133,7 @@
         private System.Windows.Forms.Button btnBismuthBear;
         private System.Windows.Forms.PictureBox imgMineral;
         private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblMineral;
     }
 }
 
