@@ -35,6 +35,7 @@
             this.imgMineral = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblMineral = new System.Windows.Forms.Label();
+            this.lblBear = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imgMineral)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,12 +77,15 @@
             this.btnBismuthBear.TabIndex = 3;
             this.btnBismuthBear.Text = "Bear?";
             this.btnBismuthBear.UseVisualStyleBackColor = true;
+            this.btnBismuthBear.Click += new System.EventHandler(this.btnBismuthBear_Click);
+            this.btnBismuthBear.MouseLeave += new System.EventHandler(this.btnBismuthBear_MouseLeave);
+            this.btnBismuthBear.MouseHover += new System.EventHandler(this.btnBismuthBear_MouseHover);
             // 
             // imgMineral
             // 
-            this.imgMineral.Location = new System.Drawing.Point(293, 123);
+            this.imgMineral.Location = new System.Drawing.Point(299, 141);
             this.imgMineral.Name = "imgMineral";
-            this.imgMineral.Size = new System.Drawing.Size(300, 242);
+            this.imgMineral.Size = new System.Drawing.Size(300, 181);
             this.imgMineral.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgMineral.TabIndex = 4;
             this.imgMineral.TabStop = false;
@@ -107,11 +111,22 @@
             this.lblMineral.Text = "Emeralds are a very delicate gem. They are twenty times rarer than diamonds";
             this.lblMineral.Visible = false;
             // 
+            // lblBear
+            // 
+            this.lblBear.AutoSize = true;
+            this.lblBear.Location = new System.Drawing.Point(136, 309);
+            this.lblBear.Name = "lblBear";
+            this.lblBear.Size = new System.Drawing.Size(142, 13);
+            this.lblBear.TabIndex = 7;
+            this.lblBear.Text = "Bear? How is that a mineral?";
+            this.lblBear.Visible = false;
+            // 
             // FormAddingResourcesAssignment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblBear);
             this.Controls.Add(this.lblMineral);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.imgMineral);
@@ -136,6 +151,7 @@
         private System.Windows.Forms.PictureBox imgMineral;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblMineral;
+        private System.Windows.Forms.Label lblBear;
     }
 }
 
