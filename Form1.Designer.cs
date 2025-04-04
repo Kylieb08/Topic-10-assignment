@@ -87,8 +87,8 @@
             this.btnBismuthBear.Text = "Bear?";
             this.btnBismuthBear.UseVisualStyleBackColor = false;
             this.btnBismuthBear.Click += new System.EventHandler(this.btnBismuthBear_Click);
+            this.btnBismuthBear.MouseEnter += new System.EventHandler(this.btnBismuthBear_MouseEnter);
             this.btnBismuthBear.MouseLeave += new System.EventHandler(this.btnBismuthBear_MouseLeave);
-            this.btnBismuthBear.MouseHover += new System.EventHandler(this.btnBismuthBear_MouseHover);
             // 
             // imgMineral
             // 
@@ -112,10 +112,10 @@
             // lblMineral
             // 
             this.lblMineral.AutoSize = true;
-            this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMineral.Location = new System.Drawing.Point(14, 398);
+            this.lblMineral.Font = new System.Drawing.Font("Times New Roman", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMineral.Location = new System.Drawing.Point(7, 398);
             this.lblMineral.Name = "lblMineral";
-            this.lblMineral.Size = new System.Drawing.Size(809, 26);
+            this.lblMineral.Size = new System.Drawing.Size(788, 25);
             this.lblMineral.TabIndex = 6;
             this.lblMineral.Text = "Emeralds are a very delicate gem. They are twenty times rarer than diamonds";
             this.lblMineral.Visible = false;
